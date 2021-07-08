@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>stoplight</title>
+    <link rel="stoplight-container"href="./assets/css/stoplight.css"/>
+
+</head>
+ <body> 
+        <h1>stoplight</h1>
+          
+        <div class="stoplight-container">
+            <div class="light red-light"></div>
+            <div class="light yellow-light"></div>
+            <div class="light green-light"></div>
+          </div>
+          .stoplight-container {
+            background: darkgray;
+            width: 300px;
+            height: auto;
+            padding: 30px;
+          }
+          
+          .light {
+            width: 200px;
+            height: 200px;
+            /* center align each light and add a margin bottom */
+            border: 5px solid black;
+            /*   make the lights a circle */
+          }
+          
+          .red-light {
+            background-color: rgba(255, 0, 0, 0.25);
+          }
+          
+          /* red-light on hover should be 100% red */
+          
+          .yellow-light {
+            background-color: rgba(255, 255, 0, 0.25);
+          }
+          
+          /* yellow-light on hover should be 100% yellow */
+          
+          .green-light {
+            background-color: rgba(0, 255, 0, 0.25);
+          }
+          
+          /* green-light on hover should be 100% green */
+    </body>
+</html>
+

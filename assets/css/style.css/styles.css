@@ -1,0 +1,33 @@
+/*This is a CSS comment */
+html{
+    background-color: blue;
+    font-family: sans-serif;
+    }
+    
+    h1 {
+        font-family: cursive;
+        color:purple;
+    }*/
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .center-align-text {
+        text-align: center;
+    }
+
+    .right-align-text {
+        text-align: right;   
+    }
+    .left-align-text {
+        text-align: left;
